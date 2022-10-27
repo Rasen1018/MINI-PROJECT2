@@ -1,114 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T13:41:53.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="MblvM7zIge54JQ2ZDeQk" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T14:33:29.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="iAUCuq-kb4ko79q_-NsQ" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4462" dy="5462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4075" dy="5202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="360" width="160" height="138" as="geometry">
-            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="Student Number" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="Average Mark" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="Is Eligible To Enroll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="112" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="330" y="360" width="160" height="70" as="geometry">
-            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="Salary" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-26" value="QTreeWidgetItem" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="-150" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-31" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="386" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-31" value="ProductMangerForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="460" width="420" height="368" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-32" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-31">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-32" value="- productList : QMap&lt;int, ProductItem*&gt;&#xa;- ui : Ui::ProductManagerForm* &#xa;- menu : QMenu* " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-31">
+          <mxGeometry y="26" width="420" height="54" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-31">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="420" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-34" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-31">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-34" value="+ explicit ProductManagerForm(QWidget* parent = nullptr) : explicit&#xa;+ ~ProductManagerForm()&#xa;- makeId() : int&#xa;&#xa;----- signal ------&#xa;+ void producdataSent(ProductItem*) : void&#xa;&#xa;------ slots ------&#xa;- showContextMenu(const QPoint&amp;) : void&#xa;- removeItem() : void&#xa;- receiveName(QString) : void&#xa;- receiveName(int) : void&#xa;- receiveCategory(QString) : void&#xa;- inventoryChanged(int, int) : void&#xa;- on_treeWidget_itemClicked(QTreeWidgetItem *item, int column) : void&#xa;- on_clearPushButton_clicked() : void&#xa;- on_addPushButton_clicked() : void&#xa;- on_modifyPushButton_clicked() : void&#xa;- on_searchPushButton_clicked() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-31">
+          <mxGeometry y="88" width="420" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-35" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="520" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-35" value="ShoppingManagerForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="460" width="450" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-35">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-36" value="- shopList : QMap&lt;int, ShoppingItem*&gt; &#xa;- menu : QMenu*&#xa;- ui : Ui::ShoppingManagerForm *" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-35">
+          <mxGeometry y="26" width="450" height="54" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-35">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="450" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-35">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-38" value="+ ShoppingManagerForm(QWidget *parent = nullptr) : explicit&#xa;+ ~ShoppingManagerForm()&#xa;- makeId() : int&#xa;&#xa;------signals-------&#xa;- clientDataSent(QString) : void&#xa;- dataSent(QString) : void&#xa;- clientIdSent(int) : void&#xa;- productIdSent(int) : void&#xa;- inventorySent(int, int) : void&#xa;- categoryDataSent(QString) : void&#xa;&#xa;------ slots ------&#xa;- showContextMenu(const QPoint&amp;) : void&#xa;- removeItem() : void&#xa;- receiveData(ClientItem*) : void&#xa;- shopReceiveData(ProductItem*) : void&#xa;- on_showLineEdit_returnPressed() : void&#xa;- on_clientTreeWidget_itemClicked(QTreeWidgetItem *item, int column) : void&#xa;- on_productTreeWidget_itemClicked(QTreeWidgetItem *item, int column) : void&#xa;- on_shopTreeWidget_itemClicked(QTreeWidgetItem *item, int column) : void&#xa;- on_addPushButton_clicked() : void&#xa;- on_modifyPushButton_clicked() : void&#xa;- on_clearPushButton_clicked() : void&#xa;- on_searchPushButton_clicked() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-35">
+          <mxGeometry y="88" width="450" height="362" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-39" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="629.9999999999999" y="620" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-39" value="LogThread" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" width="300" height="218" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-40" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-39">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-40" value="- itemList : QList&lt;QTreeWidgetItem*&gt; ItemList &#xa;- filename :  QString" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-39">
+          <mxGeometry y="26" width="300" height="44" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-39">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="70" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-42" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-39">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-42" value="+ LogThread(QObject *parent = nullptr) : explicit&#xa;- run() : void&#xa;&#xa;------ signals -------&#xa;+ send(int data) : void&#xa;&#xa;------ slots -------&#xa;+ appendData(QTreeWidgetItem*) : void&#xa;+ saveData() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-39">
+          <mxGeometry y="78" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-43" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="179.99999999999994" y="520" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-43" value="ClientManagerForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-240.00000000000006" y="460" width="400" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-44" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-43">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-44" value="- clientList : QMap&lt;int, ClientItem*&gt; &#xa;- ui : Ui::ClientManagerForm *&#xa;- menu : QMenu* " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-43">
+          <mxGeometry y="26" width="400" height="54" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-43">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="400" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-46" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-43">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-46" value="+ ClientManagerForm(QWidget *parent = nullptr) : explicit&#xa;+ ~ClientManagerForm()&#xa;- makeId() : int&#xa;&#xa;------ signals ------&#xa;+ clientDataSent(ClientItem*) : void&#xa;+ getAllClient(QStringList) : void&#xa;&#xa;------ slots ------&#xa;- on_treeWidget_itemClicked(QTreeWidgetItem *item, int column) : void&#xa;- showContextMenu(const QPoint &amp;) : void&#xa;- removeItem() : void&#xa;- receiveData(QString) ; void&#xa;- receiveData(int) : void&#xa;- on_addPushButton_clicked() : void&#xa;- on_modifyPushButton_clicked() : void&#xa;- on_searchPushButton_clicked() : void&#xa;- on_clearPushButton_clicked() : void&#xa;- receiveAllClient() : void&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-43">
+          <mxGeometry y="88" width="400" height="282" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-55" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="409.9999999999999" y="720" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-55" value="ChatClientForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="460" width="360" height="348" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-56" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-55">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-56" value="- ui  : Ui::ChatClientForm *&#xa;- clientSocket : Ui::ChatClientForm *&#xa;- file : QFile*&#xa;- fileClient : QTcpSocket *&#xa;- progressDialog : QProgressDialog* &#xa;- loadSize : qint64&#xa;- byteToWrite : qint64&#xa;- totalSize : qint64 &#xa;- outBlock : QByteArray &#xa;- isSent : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-55">
+          <mxGeometry y="26" width="360" height="154" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-55">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="180" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-58" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-55">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-58" value="+ ChatClientForm(QWidget *parent = nullptr) : explicit&#xa;+ ~ChatClientForm()&#xa;&#xa;------ slots ------&#xa;- sendProtocol(Chat_Status type, char* data, int size) : void&#xa;- on_logInPushButton_clicked() : void&#xa;- on_enterPushButton_clicked() : void&#xa;- on_pushButton_clicked() : void&#xa;- on_sendPushButton_clicked() : void&#xa;- on_quitPushButton_clicked() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-55">
+          <mxGeometry y="188" width="360" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-47" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="710" width="160" height="86" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-47" value="ChatServerForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1550" y="460" width="460" height="568" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-48" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-47">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-48" value="- BLOCK_SIZE = 1024 : const int &#xa;- infoLabel : QLabel *&#xa;- chatServer : QTcpServer *&#xa;- fileServer : QTcpServer *&#xa;- clientList : QList&lt;QTcpSocket*&gt; &#xa;- clientIdHash : QHash&lt;quint16, QString&gt; &#xa;- clientSocketHash : QHash&lt;QString, QTcpSocket*&gt; &#xa;- ui : Ui::ChatServerForm *&#xa;- menu : QMenu* &#xa;- file : QFile* &#xa;- progressDialog : QProgressDialog* &#xa;- totalSize : qint64&#xa;- byteReceived : qint64 &#xa;- inBlock : QByteArray&#xa;- logThread :  LogThread* " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-47">
+          <mxGeometry y="26" width="460" height="224" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-47">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="250" width="460" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-50" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-47">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-50" value="- ChatServerForm(QWidget *parent = nullptr)&#xa;- ChatServerForm(const ChatServerForm&amp; ref)&#xa;- ChatServerForm&amp; operator=(const ChatServerForm&amp; ref)&#xa;- ~ChatServerForm()&#xa;+ static ChatServerForm&amp; getIncetance()&#xa;+ openWidget() : void&#xa;&#xa;------ signals ------&#xa;+ callClientForm() : void&#xa;&#xa;------ slots ------&#xa;- receiveData() : void&#xa;- getAllClient(QStringList) : void&#xa;- removeClient() : void&#xa;- readClient() : void&#xa;- acceptConnection() : void&#xa;- on_actionKickOut_triggered() : void&#xa;- on_createPushButton_clicked() : void&#xa;- on_connectListWidget_customContextMenuRequested(const QPoint &amp;pos) : void&#xa;- on_connectListWidget_itemClicked(QListWidgetItem *item) : void&#xa;- on_newPushButton_clicked() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-47">
+          <mxGeometry y="258" width="460" height="310" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-71" value="ProductItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" width="360" height="210" as="geometry" />
@@ -120,13 +89,13 @@
           <mxGeometry y="34" width="360" height="176" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-76" value="ShoppingItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" width="360" height="220" as="geometry" />
+          <mxGeometry x="610" width="490" height="230" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-76">
-          <mxGeometry y="26" width="360" height="8" as="geometry" />
+          <mxGeometry y="26" width="490" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-78" value="+ ShoppingItem(int, int, int, QString, int, int) : explicit&#xa;+ id() const : int                  &#xa;+ getCID() const : int&#xa;+ setClient(int clinetId) : void&#xa;+ getPID() const : int  &#xa;+ setProduct(int productId) : void&#xa;+ getTime() const : QString&#xa;+ setTime(QString sellTime) : void&#xa;+ getAmount() const : int&#xa;+ setAmount(int sellAmount) : void&#xa;+ getTotalPrice() const : int&#xa;+ setTotalPrice(int totalPrice) : void+ operator==(const ShoppingItem &amp;other) const : bool     " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-76">
-          <mxGeometry y="34" width="360" height="186" as="geometry" />
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-78" value="+ ShoppingItem(int, int, int, QString, int, int) : explicit&#xa;+ id() const : int                  &#xa;+ getCID() const : int&#xa;+ setClient(int clinetId) : void&#xa;+ getPID() const : int  &#xa;+ setProduct(int productId) : void&#xa;+ getTime() const : QString&#xa;+ setTime(QString sellTime) : void&#xa;+ getAmount() const : int&#xa;+ setAmount(int sellAmount) : void&#xa;+ getTotalPrice() const : int&#xa;+ setTotalPrice(int totalPrice) : void&#xa;+ operator==(const ShoppingItem &amp;other) const : bool     " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-76">
+          <mxGeometry y="34" width="490" height="196" as="geometry" />
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-79" value="ClientItem" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-170" width="360" height="230" as="geometry" />
@@ -136,6 +105,59 @@
         </mxCell>
         <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-81" value="+ ClientItem(int, QString, QString, int, QString, QString) : explicit&#xa;+ getName() const : QString&#xa;+ setName(QString&amp;) :  void&#xa;+ getGender() const : QString &#xa;+ setGender(QString&amp;) : void&#xa;+ getAge() const : int            &#xa;+ setAge(int) : void&#xa;+ getPhoneNumber() const : QString &#xa;+ setPhoneNumber(QString&amp;) : void&#xa;+ getAddress() const : QString&#xa;+ setAddress(QString&amp;) : void&#xa;+ id() const : int&#xa;+ operator==(const ClientItem &amp;other) const : bool     " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AVU4aZ9Kj_DNDIzlgDAj-79">
           <mxGeometry y="34" width="360" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-82" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AVU4aZ9Kj_DNDIzlgDAj-71" target="AVU4aZ9Kj_DNDIzlgDAj-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="-80" as="sourcePoint" />
+            <mxPoint x="450" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-83" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="AVU4aZ9Kj_DNDIzlgDAj-26">
+          <mxGeometry x="0.1566" width="160" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="170" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="-112" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-84" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AVU4aZ9Kj_DNDIzlgDAj-76" target="AVU4aZ9Kj_DNDIzlgDAj-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="-80" as="sourcePoint" />
+            <mxPoint x="855" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="855" y="-112" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-85" value="QWidget" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="290" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-86" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="AVU4aZ9Kj_DNDIzlgDAj-85">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="460" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-87" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AVU4aZ9Kj_DNDIzlgDAj-43" target="AVU4aZ9Kj_DNDIzlgDAj-85">
+          <mxGeometry x="0.1566" width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="432.5" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="328" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVU4aZ9Kj_DNDIzlgDAj-88" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AVU4aZ9Kj_DNDIzlgDAj-35" target="AVU4aZ9Kj_DNDIzlgDAj-85">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="900" y="442.5" as="sourcePoint" />
+            <mxPoint x="625" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="885" y="328" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
