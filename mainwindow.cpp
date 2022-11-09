@@ -10,17 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-#if 0
-    ui->setupUi(this);
-    clientForm = new ClientManagerForm();           // 고객 인포 생성
-    clientForm->setWindowTitle(tr("Client Info"));
-
-    productForm = new ProductManagerForm();         // 제품 인포 생성
-    productForm->setWindowTitle(tr("Product Info"));
-
-    shoppingForm = new ShoppingManagerForm();       // 쇼핑 인포 생성
-    shoppingForm->setWindowTitle(tr("Shopping Info"));
-#else
     ui->setupUi(this);
     clientForm = new ClientManagerForm(this);           // 고객 인포 생성
     clientForm->setWindowTitle(tr("Client Info"));
@@ -30,7 +19,11 @@ MainWindow::MainWindow(QWidget *parent)
 
     shoppingForm = new ShoppingManagerForm(this);       // 쇼핑 인포 생성
     shoppingForm->setWindowTitle(tr("Shopping Info"));
-#endif
+
+    QMdiSubWindow *mdi = ui->mdiArea->addSubWindow(clientForm);     // 메인 윈도우에 위젯 추가
+    ui->mdiArea->addSubWindow(productForm);
+    ui->mdiArea->addSubWindow(shoppingForm);
+    ui->mdiArea->setActiveSubWindow(mdi);
 
     // ShoppingForm에서 고객 이름을 전달해주면 ClientForm에서 그 이름을 받아 item을 검색하는 슬롯 연결
     connect(shoppingForm, SIGNAL(clientDataSent(QString)), clientForm, SLOT(receiveData(QString)));
@@ -64,21 +57,7 @@ MainWindow::MainWindow(QWidget *parent)
     // signal callClientForm()을 부르는 함수
     chatServer.openWidget();
 
-    ChatClientForm* chatClient = new ChatClientForm(0);     // 채팅 클라이언트 프로그램 생성
-    chatClient->show();
-    connect(chatClient, SIGNAL(destroyed()),
-            chatClient, SLOT(deleteLater()));
-
     ui->toolBar->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
-
-
-    QMdiSubWindow *mdi = ui->mdiArea->addSubWindow(clientForm);     // 메인 윈도우에 위젯 추가
-    ui->mdiArea->addSubWindow(productForm);
-    ui->mdiArea->addSubWindow(shoppingForm);
-    ui->mdiArea->setActiveSubWindow(mdi);
-//    clientForm->show();
-//    productForm->show();
-//    shoppingForm->show();
 }
 
 MainWindow::~MainWindow()
@@ -96,14 +75,12 @@ void MainWindow::on_actionClient_triggered()
     }
 }
 
-
 void MainWindow::on_actionProduct_triggered()
 {
     if(productForm != nullptr) {
         productForm->setFocus();
     }
 }
-
 
 void MainWindow::on_actionShopping_triggered()
 {

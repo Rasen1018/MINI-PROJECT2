@@ -76,7 +76,7 @@ ChatClientForm::ChatClientForm(QWidget *parent) :
         case Chat_Invite:   // 채팅에 초대됐을 때
             QMessageBox::information(this, tr("Chatting Client"),
                                   tr("Invited from Server"));
-            ui->inputLineEdit->setEnabled(true);                // 위셋 사용 가능하게 설정
+            ui->inputLineEdit->setEnabled(true);                // 위젯 사용 가능하게 설정
             ui->enterPushButton->setEnabled(true);
             ui->sendPushButton->setEnabled(true);
             ui->idLineEdit->setReadOnly(true);
@@ -140,6 +140,7 @@ void ChatClientForm::sendProtocol(Chat_Status type, char* data, int size)
 
 void ChatClientForm::on_logInPushButton_clicked()       // 로그인 버튼 클릭했을 때
 {
+    if(ui->idLineEdit->text()=="") return;
     if(ui->logInPushButton->text() == tr("Log In")) {   // 로그인 버튼의 텍스트가 Log In 이라면
         clientSocket->connectToHost(ui->ipLineEdit->text( ),        // 서버 연결(ip, port 전송)
                                     ui->portLineEdit->text( ).toInt( ));

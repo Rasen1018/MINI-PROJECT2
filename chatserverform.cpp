@@ -59,7 +59,11 @@ ChatServerForm::ChatServerForm(QWidget *parent) :
     logThread = new LogThread(this);
     logThread->start();
 
-    connect(ui->savePushButton, SIGNAL(clicked()), logThread, SLOT(saveData()));
+    connect(ui->savePushButton, &QPushButton::clicked, logThread, [=](){
+        logThread->saveData();
+        QMessageBox::information(this, tr("Log Information"),
+                              tr("Save Complete"));
+    });
     qDebug() << tr("The server is running on port %1.").arg(chatServer->serverPort( ));
 }
 
@@ -164,7 +168,6 @@ void ChatServerForm::receiveData()
                 item->setText(tmp.at(0)+")"+"    On Standby");
             }
         }
-        clientIdHash.remove(port);
         break;
     case Chat_LogOut: {
         foreach(auto item, ui->allClientListWidget->findItems(id, Qt::MatchContains)) {
@@ -172,10 +175,8 @@ void ChatServerForm::receiveData()
             }
 
         foreach(auto item, ui->connectListWidget->findItems(id, Qt::MatchContains)) {
-            if(item->text().right(1) =="y") {
                 clientList.removeOne(clientConnection);        // QList<QTcpSocket*> clientList;
                 clientSocketHash.remove(id);
-            }
         }
     }
         break;
@@ -209,8 +210,11 @@ void ChatServerForm::removeClient()     // 채팅 프로그램과 연결이 끊�
     // 고객 지울때 connect list에서 삭제하기, chat out 상태일때는 connect list에서 icon만 변경
     QString name = clientIdHash[clientConnection->peerPort()];
     foreach(auto item, ui->connectListWidget->findItems(name, Qt::MatchContains)) {
-        int row = ui->connectListWidget->row(item);
-        ui->connectListWidget->takeItem(row);
+        QStringList tmp=item->text().split(")");
+        if(tmp.at(0)+")" == name) {
+            int row = ui->connectListWidget->row(item);
+            ui->connectListWidget->takeItem(row);
+        }
     }
 }
 
@@ -368,5 +372,7 @@ void ChatServerForm::on_newPushButton_clicked()
 {
     ChatClientForm *chatClient = new ChatClientForm(0);
     chatClient->show();
+    connect(chatClient, SIGNAL(destroyed()),
+            chatClient, SLOT(deleteLater()));
 }
 

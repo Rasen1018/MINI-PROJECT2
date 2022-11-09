@@ -36,7 +36,7 @@
     <message>
         <location filename="chatclientform.ui" line="60"/>
         <location filename="chatclientform.cpp" line="95"/>
-        <location filename="chatclientform.cpp" line="142"/>
+        <location filename="chatclientform.cpp" line="144"/>
         <source>Log In</source>
         <translation type="unfinished">로그인</translation>
     </message>
@@ -74,7 +74,11 @@
     </message>
     <message>
         <location filename="chatclientform.cpp" line="74"/>
-        <source>Chat In</source>
+        <location filename="chatclientform.cpp" line="150"/>
+        <location filename="chatclientform.cpp" line="154"/>
+        <location filename="chatclientform.cpp" line="165"/>
+        <source>Chat in</source>
+        <oldsource>Chat In</oldsource>
         <translation type="unfinished">채팅 시작</translation>
     </message>
     <message>
@@ -88,16 +92,9 @@
         <translation type="unfinished">서버와 연결이 끊겼습니다</translation>
     </message>
     <message>
-        <location filename="chatclientform.cpp" line="148"/>
-        <location filename="chatclientform.cpp" line="151"/>
-        <location filename="chatclientform.cpp" line="162"/>
-        <source>Chat in</source>
-        <translation type="unfinished">채팅 시작</translation>
-    </message>
-    <message>
         <location filename="chatclientform.cpp" line="83"/>
-        <location filename="chatclientform.cpp" line="154"/>
-        <location filename="chatclientform.cpp" line="159"/>
+        <location filename="chatclientform.cpp" line="157"/>
+        <location filename="chatclientform.cpp" line="162"/>
         <source>Chat Out</source>
         <translation type="unfinished">채팅 종료</translation>
     </message>
@@ -137,7 +134,7 @@
     <message>
         <location filename="chatserverform.ui" line="108"/>
         <source>ID</source>
-        <translation type="unfinished">주문 ID</translation>
+        <translation type="unfinished">고객 ID</translation>
     </message>
     <message>
         <location filename="chatserverform.ui" line="113"/>
@@ -196,10 +193,20 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="chatserverform.cpp" line="47"/>
-        <location filename="chatserverform.cpp" line="60"/>
+        <location filename="chatserverform.cpp" line="48"/>
+        <location filename="chatserverform.cpp" line="67"/>
         <source>The server is running on port %1.</source>
         <translation type="unfinished">채팅 서버 포트번호는 %1입니다.</translation>
+    </message>
+    <message>
+        <location filename="chatserverform.cpp" line="64"/>
+        <source>Log Information</source>
+        <translation type="unfinished">알림</translation>
+    </message>
+    <message>
+        <location filename="chatserverform.cpp" line="65"/>
+        <source>Save Complete</source>
+        <translation type="unfinished">로그 저장 완료</translation>
     </message>
 </context>
 <context>
@@ -214,7 +221,7 @@
         <location filename="clientmanagerform.ui" line="249"/>
         <location filename="clientmanagerform.ui" line="285"/>
         <source>ID</source>
-        <translation type="unfinished">주문 ID</translation>
+        <translation type="unfinished">고객 ID</translation>
     </message>
     <message>
         <location filename="clientmanagerform.ui" line="51"/>
@@ -315,51 +322,51 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="112"/>
+        <location filename="mainwindow.ui" line="122"/>
         <source>Quit</source>
         <translation type="unfinished">프로그램 종료</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="117"/>
+        <location filename="mainwindow.ui" line="131"/>
         <location filename="mainwindow.cpp" line="15"/>
         <source>Client Info</source>
         <translation type="unfinished">고객 정보</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="120"/>
+        <location filename="mainwindow.ui" line="134"/>
         <source>Ctrl+1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="125"/>
-        <location filename="mainwindow.ui" line="128"/>
+        <location filename="mainwindow.ui" line="143"/>
+        <location filename="mainwindow.ui" line="146"/>
         <location filename="mainwindow.cpp" line="18"/>
         <source>Product Info</source>
         <translation type="unfinished">제품 정보</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="131"/>
+        <location filename="mainwindow.ui" line="149"/>
         <source>Ctrl+2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="136"/>
+        <location filename="mainwindow.ui" line="158"/>
         <location filename="mainwindow.cpp" line="21"/>
         <source>Shopping Info</source>
         <translation type="unfinished">주문 정보</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="139"/>
+        <location filename="mainwindow.ui" line="161"/>
         <source>Ctrl+3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="144"/>
+        <location filename="mainwindow.ui" line="170"/>
         <source>Chat</source>
         <translation type="unfinished">채팅 서버</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="147"/>
+        <location filename="mainwindow.ui" line="173"/>
         <source>Ctrl+4</source>
         <translation type="unfinished"></translation>
     </message>
@@ -377,7 +384,7 @@
         <location filename="productmanagerform.ui" line="206"/>
         <location filename="productmanagerform.ui" line="237"/>
         <source>ID</source>
-        <translation type="unfinished">주문 ID</translation>
+        <translation type="unfinished">제품 ID</translation>
     </message>
     <message>
         <location filename="productmanagerform.ui" line="36"/>
@@ -648,18 +655,18 @@
         <translation type="unfinished">제거</translation>
     </message>
     <message>
-        <location filename="shoppingmanagerform.cpp" line="245"/>
-        <location filename="shoppingmanagerform.cpp" line="255"/>
-        <location filename="shoppingmanagerform.cpp" line="298"/>
-        <location filename="shoppingmanagerform.cpp" line="308"/>
+        <location filename="shoppingmanagerform.cpp" line="253"/>
+        <location filename="shoppingmanagerform.cpp" line="263"/>
+        <location filename="shoppingmanagerform.cpp" line="307"/>
+        <location filename="shoppingmanagerform.cpp" line="317"/>
         <source>ERROR</source>
-        <translation type="unfinished">제고 부족</translation>
+        <translation type="unfinished">재고 부족</translation>
     </message>
     <message>
-        <location filename="shoppingmanagerform.cpp" line="245"/>
-        <location filename="shoppingmanagerform.cpp" line="255"/>
-        <location filename="shoppingmanagerform.cpp" line="298"/>
-        <location filename="shoppingmanagerform.cpp" line="308"/>
+        <location filename="shoppingmanagerform.cpp" line="253"/>
+        <location filename="shoppingmanagerform.cpp" line="263"/>
+        <location filename="shoppingmanagerform.cpp" line="307"/>
+        <location filename="shoppingmanagerform.cpp" line="317"/>
         <source>Inventory Overflow</source>
         <translation type="unfinished">재고보다 적게 주문해주세요</translation>
     </message>

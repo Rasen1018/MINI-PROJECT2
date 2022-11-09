@@ -14,16 +14,6 @@ class LogThread;
 class QListWidgetItem;
 class ChatClientForm;
 
-//typedef enum {
-//    Chat_Login,           // 로그인(서버 접속)
-//    Chat_In,              // 채팅방 입장
-//    Chat_Talk,            // 채팅
-//    Chat_Out,             // 채팅방 퇴장 --> 초대 가능
-//    Chat_LogOut,          // 로그 아웃(서버 끊김) --> 초대 불가능
-//    Chat_Invite,          // 초대
-//    Chat_KickOut          // 강퇴
-//} Chat_Status;
-
 namespace Ui {
 class ChatServerForm;
 }
